@@ -1,0 +1,95 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+
+        <!-- Barra donde se muestra la operación en curso -->
+        <div class="barra">
+            <span id="display">0</span>
+        </div>
+
+        <div class="contenedor-botones">
+            
+            <div class="botones-numeros">
+                <div class="fila">
+                    <button class="numero" onclick="agregarNumero('1')">1</button>
+                    <button class="numero" onclick="agregarNumero('2')">2</button>
+                    <button class="numero" onclick="agregarNumero('3')">3</button>
+                </div>
+                <div class="fila">
+                    <button class="numero" onclick="agregarNumero('4')">4</button>
+                    <button class="numero" onclick="agregarNumero('5')">5</button>
+                    <button class="numero" onclick="agregarNumero('6')">6</button>
+                </div>
+                <div class="fila">
+                    <button class="numero" onclick="agregarNumero('7')">7</button>
+                    <button class="numero" onclick="agregarNumero('8')">8</button>
+                    <button class="numero" onclick="agregarNumero('9')">9</button>
+                </div>
+                <div class="fila">
+                    <button class="numero" onclick="agregarNumero('0')">0</button>
+                </div>
+            </div>
+
+            <div class="botones-ops">
+                <button class="operacion" onclick="agregarOperacion('+')">+</button>
+                <button class="operacion" onclick="agregarOperacion('-')">-</button>
+                <button class="operacion" onclick="agregarOperacion('*')">*</button>
+                <button class="operacion" onclick="agregarOperacion('/')">/</button>
+                <button class="operacion" onclick="calcular()">=</button>
+                <button class="operacion" onclick="borrar()">C</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let operacion = "";
+        let display = document.getElementById('display');
+        
+        // Función para agregar números al display
+        function agregarNumero(numero) {
+            if (display.innerText === '0') {
+                display.innerText = numero;
+            } else {
+                display.innerText += numero;
+            }
+        }
+
+        // Función para agregar operaciones al display
+        function agregarOperacion(oper) {
+            if (operacion === "") {
+                operacion = display.innerText + " " + oper + " ";
+                display.innerText = operacion;
+            } else {
+                operacion = display.innerText;
+            }
+        }
+
+        // Función para calcular el resultado
+        function calcular() {
+            try {
+                let resultado = eval(display.innerText);
+                display.innerText = resultado;
+            } catch (error) {
+                display.innerText = 'Error';
+            }
+        }
+
+        function borrar() {
+            display.innerText = '0';
+            operacion = "";
+        }
+    </script>
+</body>
+</html>

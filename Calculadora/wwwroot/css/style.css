@@ -1,0 +1,110 @@
+/* Diseño general */
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f7c6e2; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la calculadora */
+.calculadora {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+
+/* Barra donde se muestra la operación */
+.barra {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra #display {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Contenedor de botones (números y operaciones) */
+.contenedor-botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+/* Agrupar los botones en filas */
+.fila {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los botones flotantes */
+.botones-numeros button, .botones-ops button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botones-numeros button:hover, .botones-ops button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de los botones de números */
+.botones-numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.botones-numeros button {
+    background-color: #d36d8b; 
+    color: white;
+}
+
+.botones-numeros button:hover {
+    background-color: #b85b74; 
+}
+
+.botones-ops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-ops button {
+    background-color: #d5006d; 
+    color: white;
+}
+
+.botones-ops button:hover {
+    background-color: #a20056; 
+}
