@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Rb9umrAMN1UcmuqloU9pA6Ge5cb6VZwlB/gN8KyJKm8=",
+  "Hash": "0ykhCwSdoBJCwLVY174aNmLAJOyqTCDltJHRK2Se0Tk=",
   "Source": "Calculadora",
   "BasePath": "_content/Calculadora",
   "Mode": "Default",
@@ -1109,12 +1109,12 @@
       "OriginalItemSpec": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-liq9wkgm08.gz",
+      "Identity": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-cksbeqkvrh.gz",
       "SourceId": "Calculadora",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Calculadora",
-      "RelativePath": "css/style#[.{fingerprint=liq9wkgm08}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=cksbeqkvrh}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "znuh4z540d",
-      "Integrity": "gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y=",
+      "Fingerprint": "ts2qkaj2n0",
+      "Integrity": "rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\css\\style.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "liq9wkgm08",
-      "Integrity": "g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM=",
+      "Fingerprint": "cksbeqkvrh",
+      "Integrity": "pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-liq9wkgm08.gz",
+      "Route": "css/style.cksbeqkvrh.css",
+      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-cksbeqkvrh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001184834123"
+          "Quality": "0.001183431953"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "843"
+          "Value": "844"
         },
         {
           "Name": "ETag",
-          "Value": "\"gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y=\""
+          "Value": "\"rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,18 +3368,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM=\""
+          "Value": "W/\"pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "cksbeqkvrh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM="
+          "Value": "sha256-pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4="
         }
       ]
     },
     {
-      "Route": "css/style.css",
+      "Route": "css/style.cksbeqkvrh.css",
       "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3389,7 +3397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2544"
+          "Value": "2618"
         },
         {
           "Name": "Content-Type",
@@ -3397,121 +3405,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM=\""
+          "Value": "\"pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css.gz",
-      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-liq9wkgm08.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "843"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.liq9wkgm08.css",
-      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-liq9wkgm08.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001184834123"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "843"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "liq9wkgm08"
+          "Value": "cksbeqkvrh"
         },
         {
           "Name": "label",
@@ -3519,13 +3427,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM="
+          "Value": "sha256-pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4="
         }
       ]
     },
     {
-      "Route": "css/style.liq9wkgm08.css",
-      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\css\\style.css",
+      "Route": "css/style.cksbeqkvrh.css.gz",
+      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-cksbeqkvrh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3534,7 +3442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2544"
+          "Value": "844"
         },
         {
           "Name": "Content-Type",
@@ -3542,56 +3450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM=\""
+          "Value": "\"rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "liq9wkgm08"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g6GVhMuvLkmGPjkMi9XpR6zZZa7prHF30DvvxxmJHeM="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.liq9wkgm08.css.gz",
-      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-liq9wkgm08.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "843"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 03 Sep 2025 21:06:05 GMT"
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3472,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "liq9wkgm08"
+          "Value": "cksbeqkvrh"
         },
         {
           "Name": "label",
@@ -3617,7 +3480,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gQrwih4Rqoe9vz+9OiDkSaV1ashDhEdR4H/y5jXpL9Y="
+          "Value": "sha256-rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-cksbeqkvrh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001183431953"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "844"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pCQmcZF5KhO1B5dq/3c6Fxk8fFrmhw2LMmk3VSuGVX4="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Calculadora\\Calculadora\\obj\\Debug\\net9.0\\compressed\\txeftj9o49-cksbeqkvrh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 21:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTw/HjflCW4vL8X4l1xTYkDwhFMAFRi7o6wRyuhAYGE="
         }
       ]
     },

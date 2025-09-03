@@ -57,8 +57,15 @@ h1 {
 /* Agrupar los botones en filas */
 .fila {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 10px;
+    gap: 10px;
+}
+
+.fila:last-child {
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Estilo de los botones flotantes */

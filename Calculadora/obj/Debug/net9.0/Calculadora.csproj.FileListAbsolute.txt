@@ -95,4 +95,4 @@ C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\re
 C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\Calculadora.pdb
 C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\Calculadora.genruntimeconfig.cache
 C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\ref\Calculadora.dll
-C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\compressed\txeftj9o49-liq9wkgm08.gz
+C:\Users\Lab15-PC01\Documents\GitHub\Calculadora\Calculadora\obj\Debug\net9.0\compressed\txeftj9o49-cksbeqkvrh.gz
